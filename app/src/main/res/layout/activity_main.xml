@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-=======
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
->>>>>>> 51dc5c6 (Initial commit)
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,19 +8,6 @@
     tools:context=".MainActivity">
 
     <EditText
-<<<<<<< HEAD
-        android:id="@+id/sayi1Text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="105dp"
-        android:ems="10"
-        android:hint="Enter number 1 :"
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-=======
         android:id="@+id/number1Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,33 +18,10 @@
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/number2Text"
         app:layout_constraintEnd_toEndOf="parent"
->>>>>>> 51dc5c6 (Initial commit)
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-<<<<<<< HEAD
-        android:id="@+id/sayi2Text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:ems="10"
-        android:hint="Enter number 2 : "
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sayi1Text" />
-
-    <TextView
-        android:id="@+id/sonucText"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginBottom="271dp"
-        android:text="Result : 0 "
-=======
         android:id="@+id/number2Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -79,7 +39,6 @@
         android:layout_height="100dp"
         android:layout_marginBottom="180dp"
         android:text="Result : 0"
->>>>>>> 51dc5c6 (Initial commit)
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -89,56 +48,6 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-<<<<<<< HEAD
-        android:layout_width="235dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="28dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/sonucText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sayi1Text">
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="54dp"
-            android:layout_height="48dp"
-            android:layout_marginRight="5dp"
-            android:background="#2BCDB5"
-            android:onClick="topla"
-            android:text="+" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="54dp"
-            android:layout_height="48dp"
-            android:layout_marginRight="5dp"
-            android:background="#2BCD85"
-            android:onClick="cikart"
-            android:text="-" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="54dp"
-            android:layout_height="48dp"
-            android:layout_marginRight="5dp"
-            android:background="#2BCD85"
-            android:onClick="carp"
-            android:text="*" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="54dp"
-            android:layout_height="48dp"
-            android:layout_marginRight="5dp"
-            android:background="#2BCD85"
-            android:onClick="bol"
-            android:text="/" />
-
-    </LinearLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
-=======
         android:layout_width="313dp"
         android:layout_height="80dp"
         android:layout_marginBottom="47dp"
@@ -191,4 +100,3 @@
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
->>>>>>> 51dc5c6 (Initial commit)
