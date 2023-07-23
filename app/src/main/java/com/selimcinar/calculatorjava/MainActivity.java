@@ -25,30 +25,53 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public  void topla(View view){
-        int number1 = Integer.parseInt(number1Text.getText().toString());
-        int number2 = Integer.parseInt(number2Text.getText().toString());
-        int result = number1+number2;
-        resultText.setText("Result : "+result);
+        if(number1Text.getText().toString().matches("") || number2Text.getText().toString().matches("")
+        ){
+            resultText.setText("Set Number ok ");
+        }
+        else {
+            int number1 = Integer.parseInt(number1Text.getText().toString());
+            int number2 = Integer.parseInt(number2Text.getText().toString());
+            int result = number1 + number2;
+            resultText.setText("Result : " + result);
+        }
     }
     public void cikart(View view){
-        int number1 = Integer.parseInt(number1Text.getText().toString());
-        int number2 = Integer.parseInt(number2Text.getText().toString());
-        int result = number1-number2;
-        resultText.setText("Result : "+result);
-
+        if(number1Text.getText().toString().matches("") || number2Text.getText().toString().matches("")
+        ){
+            resultText.setText("Set Number ok ");
+        }
+        else {
+            int number1 = Integer.parseInt(number1Text.getText().toString());
+            int number2 = Integer.parseInt(number2Text.getText().toString());
+            int result = number1 - number2;
+            resultText.setText("Result : " + result);
+        }
     }
     public  void carp(View view){
-        int number1 = Integer.parseInt(number1Text.getText().toString());
-        int number2 = Integer.parseInt(number2Text.getText().toString());
-        int result = number1*number2;
-        resultText.setText("Result : "+result);
-    }
+        if(number1Text.getText().toString().matches("") || number2Text.getText().toString().matches("")
+        ){
+            resultText.setText("Set Number ok ");
+        }
+        else {
+            int number1 = Integer.parseInt(number1Text.getText().toString());
+            int number2 = Integer.parseInt(number2Text.getText().toString());
+            int result = number1 * number2;
+            resultText.setText("Result : " + result);
+        }
+        }
     public void bol(View view){
-        int number1 = Integer.parseInt(number1Text.getText().toString());
-        int number2 = Integer.parseInt(number2Text.getText().toString());
-        int result = number1/number2;
-        resultText.setText("Result : "+result);
-    }
+        if(number1Text.getText().toString().matches("") || number2Text.getText().toString().matches("")
+        ||number1Text.getText().toString().matches("0") || number2Text.getText().toString().matches("0")){
+            resultText.setText("Set Number ok ");
+        }
+        else {
+            int number1 = Integer.parseInt(number1Text.getText().toString());
+            int number2 = Integer.parseInt(number2Text.getText().toString());
+            int result = number1 / number2;
+            resultText.setText("Result : " + result);
+        }
+        }
 
 
 }
